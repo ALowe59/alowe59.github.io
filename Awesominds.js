@@ -115,7 +115,7 @@ function validation() {
 		//Minutes Sprint 1
 		document.getElementById("Minutes").innerHTML += "<h3>Sprint 1</h3>";
 		//Minutes 1
-		document.getElementById("Minutes").innerHTML += "<div><a href = 'includes/Minutes/Meeting_minutes_1.pdf'> Meeting Minutes 1</div>";
+		document.getElementById("Minutes").innerHTML += "<div><a href = 'includes/Minutes/Meeting1.pdf'> Meeting Minutes 1</div>";
 		//Minutes 2
 		document.getElementById("Minutes").innerHTML += "<div><a href = 'includes/Minutes/Meeting_minutes_2.pdf'> Meeting Minutes 2</div>";
 		document.getElementById("Minutes").innerHTML += "<hr>";
