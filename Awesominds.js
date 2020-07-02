@@ -14,40 +14,40 @@ function validation() {
 		document.getElementById("WSR").innerHTML = "<h1>Weekly Status Report</h1>";
 		
 		//Week 1 WSR
-		document.getElementById("WSR").innerHTML += "<div><a href = 'includes/WSR/WSR#1.pdf'> Weekly Status Report #1</div>";
+		document.getElementById("WSR").innerHTML += "<div><a href = 'includes/WSR/WSR1.pdf'> Weekly Status Report #1</div>";
 		document.getElementById("WSR").innerHTML += "<hr>";
 		//Week 2 WSR
-		document.getElementById("WSR").innerHTML += "<div><a href = 'includes/WSR/WSR#2.pdf'> Weekly Status Report #2</div>";
+		document.getElementById("WSR").innerHTML += "<div><a href = 'includes/WSR/WSR2.pdf'> Weekly Status Report #2</div>";
 		document.getElementById("WSR").innerHTML += "<hr>";
 		//Week 3 WSR
-		document.getElementById("WSR").innerHTML += "<div><a href = 'includes/WSR/WSR#3.pdf'> Weekly Status Report #3</div>";
+		document.getElementById("WSR").innerHTML += "<div><a href = 'includes/WSR/WSR3.pdf'> Weekly Status Report #3</div>";
 		document.getElementById("WSR").innerHTML += "<hr>";
 		//Week 4 WSR
-		document.getElementById("WSR").innerHTML += "<div><a href = 'includes/WSR/WSR#4.pdf'> Weekly Status Report #4</div>";
+		document.getElementById("WSR").innerHTML += "<div><a href = 'includes/WSR/WSR4.pdf'> Weekly Status Report #4</div>";
 		document.getElementById("WSR").innerHTML += "<hr>";
 		//Week 5 WSR
-		document.getElementById("WSR").innerHTML += "<div><a href = 'includes/WSR/WSR#5.pdf'> Weekly Status Report #5</div>";
+		document.getElementById("WSR").innerHTML += "<div><a href = 'includes/WSR/WSR5.pdf'> Weekly Status Report #5</div>";
 		document.getElementById("WSR").innerHTML += "<hr>";
 		//Week 6 WSR
-		document.getElementById("WSR").innerHTML += "<div><a href = 'includes/WSR/WSR#6.pdf'> Weekly Status Report #6</div>";
+		document.getElementById("WSR").innerHTML += "<div><a href = 'includes/WSR/WSR6.pdf'> Weekly Status Report #6</div>";
 		document.getElementById("WSR").innerHTML += "<hr>";
 		//Week 7 WSR
-		document.getElementById("WSR").innerHTML += "<div><a href = 'includes/WSR/WSR#7.pdf'> Weekly Status Report #7</div>";
+		document.getElementById("WSR").innerHTML += "<div><a href = 'includes/WSR/WSR7.pdf'> Weekly Status Report #7</div>";
 		document.getElementById("WSR").innerHTML += "<hr>";
 		//Week 8 WSR
-		document.getElementById("WSR").innerHTML += "<div><a href = 'includes/WSR/WSR#8.pdf'> Weekly Status Report #8</div>";
+		document.getElementById("WSR").innerHTML += "<div><a href = 'includes/WSR/WSR8.pdf'> Weekly Status Report #8</div>";
 		document.getElementById("WSR").innerHTML += "<hr>";
 		//Week 9 WSR
-		document.getElementById("WSR").innerHTML += "<div><a href = 'includes/WSR/WSR#9.pdf'> Weekly Status Report #9</div>";
+		document.getElementById("WSR").innerHTML += "<div><a href = 'includes/WSR/WSR9.pdf'> Weekly Status Report #9</div>";
 		document.getElementById("WSR").innerHTML += "<hr>";
 		//Week 10 WSR
-		document.getElementById("WSR").innerHTML += "<div><a href = 'includes/WSR/WSR#10.pdf'> Weekly Status Report #10</div>";
+		document.getElementById("WSR").innerHTML += "<div><a href = 'includes/WSR/WSR10.pdf'> Weekly Status Report #10</div>";
 		document.getElementById("WSR").innerHTML += "<hr>";
 		//Week 11 WSR
-		document.getElementById("WSR").innerHTML += "<div><a href = 'includes/WSR/WSR#11.pdf'> Weekly Status Report #11</div>";
+		document.getElementById("WSR").innerHTML += "<div><a href = 'includes/WSR/WSR11.pdf'> Weekly Status Report #11</div>";
 		document.getElementById("WSR").innerHTML += "<hr>";
 		//Week 12 WSR
-		document.getElementById("WSR").innerHTML += "<div><a href = 'includes/WSR/WSR#12.pdf'> Weekly Status Report #12</div>";
+		document.getElementById("WSR").innerHTML += "<div><a href = 'includes/WSR/WSR12.pdf'> Weekly Status Report #12</div>";
 		document.getElementById("WSR").innerHTML += "<hr>";
 		//bottom of WSR
 		document.getElementById("WSR").innerHTML += "<hr style='height:2px;border-width:0;color:gray;background-color:gray'>";
