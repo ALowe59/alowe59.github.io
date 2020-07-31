@@ -1,20 +1,19 @@
 ul {
-    list-style-type: none;
+    /* list-style-type: none; */
     margin: 0;
-    padding: 0;
-    overflow: hidden;
+    /* padding: 0; */
+    /* overflow: hidden; */
   }
   
-  li {
+  /* li {
     float: left;
   }
   
   li a {
     position: relative;
     display: block;
-    padding: 20px;
-    background-color: #dddddd;
-  }
+    padding: 20px; 
+  } */
 
   body {
     margin: 0;
@@ -50,6 +49,76 @@ ul {
     display: none;
   }
   
+ /* scroll works smoothly */ 
+  html{scroll-behavior:smooth}
+
+ /* brand */
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .navbar{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 5% 0 5%;
+  }
+
+  /* Containers */
+.container-fluid{
+  padding: 0% 15% 0%;
+} 
+.container-fluid-title{
+  padding: 0% 5 0% 0%;
+}
+
+  /* Sections */
+.colored-section {
+  background-color: #64C7E6;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff ;
+}
+
+ /* password */
+.container, #footer, .student-box{
+  text-align: center;
+}
+
+/* Proejct Summary */
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.h1-left{
+  text-align: left;
+}
+
+.p-left{
+  text-align: left;
+  font-size: 1.3rem;
+}
+
+.person-row{ 
+  margin: 10px 0;
+  text-align: left;
+}
+
+.instructor-img-left{
+  width:22%;
+  float: left;
+  padding-right: 30px;
+  padding-bottom: 30px; 
+}
+
+.student-image{
+  padding: 3% 0 3% 0;
+}
+
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {

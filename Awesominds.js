@@ -50,7 +50,7 @@ function validation() {
 		document.getElementById("WSR").innerHTML += "<div><a href = 'includes/WSR/WSR12.pdf'> Weekly Status Report #12</div>";
 		document.getElementById("WSR").innerHTML += "<hr>";
 		//bottom of WSR
-		document.getElementById("WSR").innerHTML += "<hr style='height:2px;border-width:0;color:gray;background-color:gray'>";
+		// document.getElementById("WSR").innerHTML += "<hr style='height:2px;border-width:0;color:gray;background-color:gray'>";
 		
 		
 		//Scrum Section
@@ -69,7 +69,7 @@ function validation() {
 		//Scrum Sprint 6
 		
 		//Bottom of Scrum Section
-		document.getElementById("Scrum").innerHTML += "<hr style='height:2px;border-width:0;color:gray;background-color:gray'>";
+		// document.getElementById("Scrum").innerHTML += "<hr style='height:2px;border-width:0;color:gray;background-color:gray'>";
 		
 		//Sprint Section
 		document.getElementById("Sprint").innerHTML = "<h1>Sprint BackLog</h1>";
@@ -87,7 +87,7 @@ function validation() {
 		//Sprint 6
 		
 		//Bottom of Sprint Section
-		document.getElementById("Sprint").innerHTML += "<hr style='height:2px;border-width:0;color:gray;background-color:gray'>";
+		// document.getElementById("Sprint").innerHTML += "<hr style='height:2px;border-width:0;color:gray;background-color:gray'>";
 		
 		
 		//Meeting Section
@@ -107,7 +107,7 @@ function validation() {
 		//Meeting Sprint 6
 		
 		//Bottom of Meeting Section
-		document.getElementById("Meeting").innerHTML += "<hr style='height:2px;border-width:0;color:gray;background-color:gray'>";
+		// document.getElementById("Meeting").innerHTML += "<hr style='height:2px;border-width:0;color:gray;background-color:gray'>";
 		
 		//Minutes Section
 		document.getElementById("Minutes").innerHTML = "<h1>Meetings Minutes</h1>";
@@ -172,12 +172,12 @@ function validation() {
 	return submit;
 	
 }
-function myFunction() {
-	  var x = document.getElementById("myTopnav");
-	  if (x.className === "topnav") {
-		x.className += " responsive";
-	  } else {
-		x.className = "topnav";
-	  }
-	}
+// function myFunction() {
+// 	  var x = document.getElementById("myTopnav");
+// 	  if (x.className === "topnav") {
+// 		x.className += " responsive";
+// 	  } else {
+// 		x.className = "topnav";
+// 	  }
+// 	}
 		

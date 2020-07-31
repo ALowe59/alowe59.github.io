@@ -2,8 +2,14 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="Styles.css">
-		<script src="Awesominds.js"></script>
+       
+        
+         <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -11,25 +17,51 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="Styles.css">
+        <script src="Awesominds.js"></script>
+
         <title>Awesominds-Team Bio</title>
     </head>
     <body>
-        <div class="jumbotron text-center">
-            <h1>Team Awesominds</h1> 
-        </div>
-		
-	<div class="container" id = "container">
-		<form onsubmit="return validation()">
-			<p>Enter the password to show the other content</p>
-			<label for="psw">Password</label>
-			<input type="password" id="psw" name="psw" required>
-    
-			<input type="submit" value="Submit">
-		</form>
-	</div>
-		
+        <!-- Nav Bar -->
+        <section class="colored-section" id="title"> 
+            <div class="container-fluid-title">  
+              <nav class="navbar navbar-expand-lg navbar-dark "> 
+                <a class="navbar-brand">Team Awesominds</a> 
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+                    <span class="navbar-toggler-icon"></span>
+                </button> 
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02"> 
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Project">Project Awesominds2020</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#WSR">WSR</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Scrum">Scrum Meeting</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Sprint">Sprint Backlog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Meeting">Retrospective Meetings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Minutes">Meeting Minutes</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+        </section>
 
-        <div class="topnav" id="myTopnav">
+        <!-- <div class="jumbotron text-center">
+            <h1>Team Awesominds</h1> 
+        </div> -->
+		
+        <!-- <div class="topnav" id="myTopnav">
             <a href="#Project">Project</a>
             <a href="#WSR">WSR</a>
             <a href="#Scrum">Scrum Meeting</a>
@@ -39,45 +71,111 @@
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
               <i class="fa fa-bars"></i>
             </a>
-          </div>
+        </div> -->
+
+        <!-- password -->
+        <section class="wihte-section" id=""> 
+            <div class="container-fluid-title">  
+                <div class="container" id = "container">
+                    <form onsubmit="return validation()">
+                        <p>Enter the password to show the other content</p>
+                        <label for="psw">Password</label>
+                        <input type="password" id="psw" name="psw" required> 
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </section>
 
 
-        <a name="Project"></a>
-        <div id="Project">
-            <h1>Project Summary</h1>
-			<div> </div>
-			<hr style="height:2px;border-width:0;color:gray;background-color:gray">
-        </div>
-		
+        <!-- Project Summary -->
+        <section class="white-section" id="Project"> 
+            <div class="container-fluid">
+                <a name="Project"></a>
+                <h1 class="section-heading">Project Awesominds 2020</h2>
+                <h2 class="h1-left">Background</h1>
+                <p class="p-left">Greetings, We Are Adam, Walker and James and together we are team Awesominds. Awesominds is a web-based learning app that allows Camosun Instructors to add their content and make it available to their students in the form of games. The Awesominds Project has been worked on by two previous capstone groups. For this phase of the project we will be looking at improving some instructor menus such as adding start dates and end dates to chapters, also game changes like adding a stop feature for the game.</p>
+                <div class="row">
+                    <div class="student-box col-lg-4">
+                        <img class="student-image" src="./images/adam.png" alt="Adam Lowe">
+                        <h4 class="student-title">Adam Lowe</h4>
+                        <p>Back-End Developer, Technical Writer</p>
+                    </div> 
+                    <div class="student-box col-lg-4">
+                        <img class="student-image" src="./images/walker.png" alt="Waler Jones">
+                        <h4 class="student-title">Waler Jones</h4>
+                        <p>Front & Back-End Developer, DBA</p>
+                    </div> 
+                    <div class="student-box col-lg-4">
+                        <img class="student-image" src="./images/james.png" alt="James Choi">
+                        <h4 class="student-title">James Choi</h4>
+                        <p>Front-End Developer, DevOps</p>
+                    </div>
+                </div> 
+                  <hr>
+                  <h2 class="h1-left">Project Sponsor</h1> 
+                  <div class="row">
+                    <div class="student-box col-lg-4">
+                        <img class="student-image" src="./images/marty2.png" alt="our sponsor"> 
+                    </div> 
+                    <div class="student-box col-lg-8"> 
+                        <p class="p-left">Marty Donatelli is the mastermind behind this project. Marty is a Psychology instructor at Camosun College’s Lansdowne location.  Marty came up with this idea because he wanted to make an application that would help his students learn in a more fun and engaging way.</p>
+                    </div>  
+                </div>  
+            </div>
+        </section>
+
+        <!-- WSR -->
+        <section class="colored-section" id=""> 
+            <div class="container-fluid">
+                <a name="WSR"></a>
+                <div id="WSR" class="WSR">
+                </div>
+            </div>
+        </section>
+
+        <!-- Scrum -->
+        <section class="white-section" id=""> 
+            <div class="container-fluid">
+                <a name="Scrum"></a>
+                <div id="Scrum"> 
+                </div>
+            </div>
+        </section>
+
+        <!-- Sprint -->
+        <section class="colored-section" id=""> 
+            <div class="container-fluid">
+                <a name="Sprint"></a>
+                <div id="Sprint"> 
+                </div>
+            </div>
+        </section>
+
+        <!-- Retrospective -->
+        <section class="white-section" id=""> 
+            <div class="container-fluid">
+                <a name="Meeting"></a>
+                <div id="Meeting"> 
+                </div>
+            </div>
+        </section>
+
+        <!-- Meeting Minutes -->
+        <section class="colored-section" id=""> 
+            <div class="container-fluid">
+                <a name="Minutes"></a>
+                <div id="Minutes"> 
+                </div>
+            </div>
+        </section>
         
-        <a name="WSR"></a>
-        <div id="WSR" class="WSR">
-        </div>
-		
-
-        <a name="Scrum"></a>
-        <div id="Scrum">
-			
-        </div>
-		
-
-        <a name="Sprint"></a>
-        <div id="Sprint">
-			
-        </div>
-		
-
-        <a name="Meeting"></a>
-        <div id="Meeting">
-			
-        </div>
-		
-
-        <a name="Minutes"></a>
-        <div id="Minutes">
-			
-        </div>
-		
+          <!-- Footer -->
+        <footer class="white-section" id="footer">
+            <div class="container-fluid">
+                <p>© Copyright 2020 Team Awesominds</p>   
+            </div>
+        </footer>  
 
     </body>
 </html>
