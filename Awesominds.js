@@ -90,25 +90,6 @@ function validation() {
 		// document.getElementById("Sprint").innerHTML += "<hr style='height:2px;border-width:0;color:gray;background-color:gray'>";
 		
 		
-		//Meeting Section
-		document.getElementById("Meeting").innerHTML = "<h1>Retrospective Meetings</h1>";
-		
-		//Meeting Sprint 1
-
-		
-		//Meeting Sprint 2
-		
-		//Meeting Sprint 3
-		
-		//Meeting Sprint 4
-		
-		//Meeting sprint 5
-		
-		//Meeting Sprint 6
-		
-		//Bottom of Meeting Section
-		// document.getElementById("Meeting").innerHTML += "<hr style='height:2px;border-width:0;color:gray;background-color:gray'>";
-		
 		//Minutes Section
 		document.getElementById("Minutes").innerHTML = "<h1>Meetings Minutes</h1>";
 		
