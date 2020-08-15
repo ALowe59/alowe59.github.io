@@ -57,16 +57,40 @@ function validation() {
 		document.getElementById("Scrum").innerHTML = "<h1>Scrum Meetings</h1>";
 		
 		//Scrum Sprint 1
+		document.getElementById("Scrum").innerHTML += "<h3>Sprint 1</h3>";
+		document.getElementById("Scrum").innerHTML += "<div><a href = 'includes/Scrum/Week1.pdf' target = '_blank'> Scrum Meeting #1</div>";
+		document.getElementById("Scrum").innerHTML += "<div><a href = 'includes/Scrum/Week2.pdf' target = '_blank'> Scrum Meeting #2</div>";
+		document.getElementById("Scrum").innerHTML += "<hr>";
 		
 		//Scrum Sprint 2
+		document.getElementById("Scrum").innerHTML += "<h3>Sprint 2</h3>";
+		document.getElementById("Scrum").innerHTML += "<div><a href = 'includes/Scrum/Week3.pdf' target = '_blank'> Scrum Meeting #3</div>";
+		document.getElementById("Scrum").innerHTML += "<div><a href = 'includes/Scrum/Week4.pdf' target = '_blank'> Scrum Meeting #4</div>";
+		document.getElementById("Scrum").innerHTML += "<hr>";
 		
 		//Scrum Sprint 3
+		document.getElementById("Scrum").innerHTML += "<h3>Sprint 3</h3>";
+		document.getElementById("Scrum").innerHTML += "<div><a href = 'includes/Scrum/Week5.pdf' target = '_blank'> Scrum Meeting #5</div>";
+		document.getElementById("Scrum").innerHTML += "<div><a href = 'includes/Scrum/Week6.pdf' target = '_blank'> Scrum Meeting #6</div>";
+		document.getElementById("Scrum").innerHTML += "<hr>";
 		
 		//Scrum Sprint 4
+		document.getElementById("Scrum").innerHTML += "<h3>Sprint 4</h3>";
+		document.getElementById("Scrum").innerHTML += "<div><a href = 'includes/Scrum/Week7.pdf' target = '_blank'> Scrum Meeting #7</div>";
+		document.getElementById("Scrum").innerHTML += "<div><a href = 'includes/Scrum/Week8.pdf' target = '_blank'> Scrum Meeting #8</div>";
+		document.getElementById("Scrum").innerHTML += "<hr>";
 		
 		//Scrum Sprint 5
+		document.getElementById("Scrum").innerHTML += "<h3>Sprint 5</h3>";
+		document.getElementById("Scrum").innerHTML += "<div><a href = 'includes/Scrum/Week9.pdf' target = '_blank'> Scrum Meeting #9</div>";
+		document.getElementById("Scrum").innerHTML += "<div><a href = 'includes/Scrum/Week10.pdf' target = '_blank'> Scrum Meeting #10</div>";
+		document.getElementById("Scrum").innerHTML += "<hr>";
 		
 		//Scrum Sprint 6
+		document.getElementById("Scrum").innerHTML += "<h3>Sprint 6</h3>";
+		document.getElementById("Scrum").innerHTML += "<div><a href = 'includes/Scrum/Week11.pdf' target = '_blank'> Scrum Meeting #11</div>";
+		document.getElementById("Scrum").innerHTML += "<div><a href = 'includes/Scrum/Week12.pdf' target = '_blank'> Scrum Meeting #12</div>";
+		document.getElementById("Scrum").innerHTML += "<hr>";
 		
 		//Bottom of Scrum Section
 		// document.getElementById("Scrum").innerHTML += "<hr style='height:2px;border-width:0;color:gray;background-color:gray'>";
@@ -75,18 +99,27 @@ function validation() {
 		document.getElementById("Sprint").innerHTML = "<h1>Sprint BackLog</h1>";
 		
 		//Sprint 1
-		
+		document.getElementById("Sprint").innerHTML += "<div><a href = 'includes/Sprint/Sprint1.pdf' target = '_blank'> Sprint 1</div>";
+		document.getElementById("Sprint").innerHTML += "<hr>";
 		//Sprint 2
-		
+		document.getElementById("Sprint").innerHTML += "<div><a href = 'includes/Sprint/Sprint2.pdf' target = '_blank'> Sprint 2</div>";
+		document.getElementById("Sprint").innerHTML += "<hr>";
 		//Sprint 3
-		
+		document.getElementById("Sprint").innerHTML += "<div><a href = 'includes/Sprint/Sprint3.pdf' target = '_blank'> Sprint 3</div>";
+		document.getElementById("Sprint").innerHTML += "<hr>";		
 		//Sprint 4
-		
+		document.getElementById("Sprint").innerHTML += "<div><a href = 'includes/Sprint/Sprint4.pdf' target = '_blank'> Sprint 4</div>";
+		document.getElementById("Sprint").innerHTML += "<hr>";		
 		//Sprint 5
-		
+		document.getElementById("Sprint").innerHTML += "<div><a href = 'includes/Sprint/Sprint5.pdf' target = '_blank'> Sprint 5 </div>";
+		document.getElementById("Sprint").innerHTML += "<hr>";		
 		//Sprint 6
-		
+		document.getElementById("Sprint").innerHTML += "<div><a href = 'includes/Sprint/Sprint6.pdf' target = '_blank'> Sprint 6</div>";
+		document.getElementById("Sprint").innerHTML += "<hr>";		
 		//Bottom of Sprint Section
+		document.getElementById("Sprint").innerHTML += "<div><a href = 'includes/Sprint/Final_sprint.pdf' target = '_blank'>Finished Project</div>";
+		document.getElementById("Sprint").innerHTML += "<hr>";			
+		
 		// document.getElementById("Sprint").innerHTML += "<hr style='height:2px;border-width:0;color:gray;background-color:gray'>";
 		
 		
